@@ -350,7 +350,7 @@
 </template>
 
 <script setup>
-import router from "@/router";
+// import router from "@/router";
 import { reactive } from "vue";
 
 const menu_cards = reactive([
@@ -1007,9 +1007,9 @@ const menu_cards_desert = reactive([
 
 
 
-const back = ()=> {
-  router.go(-1)
-}
+// const back = ()=> {
+//   router.go(-1)
+// }
 </script>
 
 <style scoped>
